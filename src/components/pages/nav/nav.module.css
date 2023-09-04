@@ -1,0 +1,92 @@
+.nav_bg {
+  background-image: url("../../../images/2.jpg");
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0%;
+  text-align: center;
+  list-style: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav li {
+  cursor: pointer;
+}
+.nav li:hover {
+  color: white;
+  transition: ease-in-out 2s;
+}
+.nc {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: blanchedalmond;
+  font-size: larger;
+}
+.nav_container {
+  width: 30%;
+}
+.section {
+  height: 99vh;
+  overflow: hidden;
+  background-color: bisque;
+}
+
+.rowc {
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+.card_title {
+  font-size: 26px;
+  display: flex;
+  flex-direction: row;
+}
+.card_body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  background-color: bisque;
+}
+.abt_img {
+  background-image: url("../../../images/1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.practice_section {
+  margin: auto;
+  margin-top: 5%;
+  background-color: white;
+  color: black;
+  height: 80vh;
+  width: 96%;
+}
+.subWelcome {
+  color: white;
+  width: 60%;
+  margin: auto;
+  margin-top: 14%;
+}
+.mybtn {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+.mybtn:hover {
+  background-color: antiquewhite;
+  transition: ease-in-out 2s;
+  color: black;
+}
